@@ -9,12 +9,13 @@
     padding: 0 30px !important;
 }
 .slider_area{
-    height: 700px !important;
+   max-height: 650px !important;
+  
 }
 .slider_content{
     height: 100% !important;
     width: 100% !important;
-
+    background-color: rgba(0, 0, 0, 0.284) !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -30,4 +31,19 @@
     color:#ede9e9;
     text-align: center !important;
 } 
+.figure-img{
+   /* max-width: 300px !important; */
+   height: 500px !important;
+   
+}
+.footer{
+    max-width: 100%!important;
+    height: 300px !important;
+    background-color: black !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
 
+
+}
